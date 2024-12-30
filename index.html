@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HORIZONES</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="./src/js/script.js" defer></script>
+    <link rel="shortcut icon" href="./src/midia/paisagemLandscape.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Horizones</a>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="login-container">
+        <div class="login-overlay"></div>
+        <form class="login-form">
+            <h2>Login</h2>
+           
+            <div class="input-group">
+                <input type="text" placeholder="Usuário" required>
+                <input type="password" placeholder="Senha" required>
+            </div>
+            <button type="submit" class="login-button">Entrar</button>
+            <div class="extra-links">
+                <a href="#">Esqueceu a senha?</a> | 
+                <a href="#">Criar conta</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
